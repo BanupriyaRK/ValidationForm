@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:#8CAE68; */
+    background-color: #3A2618;
+}
+body{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color:#FFD166;
+    font-size: 28px;
+    font-weight: bold;
+}
+.container{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 50px;
+   border: 2px solid #1C3A13;
+  padding-left: 22px;
+  background-color: #A10702;
+  box-shadow: 10px 8px 27px -4px rgba(0,0,0,0.75);
+}
+img{
+    width:250px;
+    height: fit-content;
+}
+.Form{
+    display: grid;
+    gap: 5px;
+    padding: 22px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+#submit{
+    width: 75px;
+    padding: 5px;
+    border: 2px dotted rgb(155, 126, 126);
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 10px 8px 27px -4px rgba(0,0,0,0.75);
+    background-color: #D9594C;
+    font-family: cursive;
+}
+#clear{
+    width: 75px; 
+    padding: 5px;  
+    border: 2px dotted rgb(155, 126, 126);
+    cursor: pointer; 
+    font-weight: bold;
+    box-shadow: 10px 8px 27px -4px rgba(0,0,0,0.75);
+    background-color: #D9594C;
+    font-family: cursive;
+}
+#username{
+    border: 2px solid black;
+    height: 35px;
+    background-color: aliceblue;
+}
+#emailaddress{
+    border: 2px solid black;
+    height: 35px;
+    background-color: aliceblue;
+}
+#password{
+    border: 2px solid black;
+    height: 35px;
+    background-color: aliceblue;
+}
+.message{
+    color: red;  
+    font-size: 20PX;
+    font-weight: lighter;
+}
+#sucess{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#rules{
+    visibility: hidden;
+    font-size: medium;
+    font-weight: lighter;
+    color: white;
+   
+}
